@@ -1,0 +1,16 @@
+app:
+  title: "ASIN Suppression Analysis Dashboard"
+  version: "1.0.0"
+
+data:
+  allowed_file_types:
+    - xlsx
+  max_file_size_mb: 100
+
+visualization:
+  default_top_n: 10
+  chart_height: 400
+  chart_width: 800
+
+chatbot:
+  default_response_length: 5
